@@ -1,0 +1,13 @@
+#parallax0ne {
+  background-image: url(../img/sunset.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 750px;
+  background-attachment: fixed;
+}
+
+
+#parallax0ne section {
+background-color: rgba(0,0,0, 0.6);
+}
