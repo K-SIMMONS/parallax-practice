@@ -1,5 +1,5 @@
 #parallax0ne {
-  background-image: url(../img/sunset.jpg);
+  background-image: url(../img/ice.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -10,14 +10,43 @@
 
 #parallax0ne section {
 background-color: rgba(0,0,0, 0.6);
-  nav > ul {
-    list-style-type: none;
-    padding: 1px;
 }
 
 nav > ul > li {
     margin: 0 14px;
     padding: 1px 2px;
     border-radius: 10px;
+  }
+  
+nav > ul {
+      list-style-type: none;
+      padding: 1px;
+  }
+
+
+#parallaxtwo {
+  background-image: url(../img/icy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 750px;
+  background-attachment: fixed;
 }
 
+#parallaxtwo section {
+  background-color: rgba(0,0,0, 0.6);
+}
+ 
+
+section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+
+img{
+  height : 650px;
+}
