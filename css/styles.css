@@ -1,0 +1,32 @@
+  nav > ul {
+    list-style-type: none;
+    padding: 1px;
+}
+
+nav > ul > li {
+    margin: 0 14px;
+    padding: 1px 2px;
+    border-radius: 10px;
+}
+
+.my_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my_jumbo{
+  display: flex;
+  height: 400px;
+  width: 75%;
+  margin-top: 50px;
+  opacity: 0.3;
+  justify-content: center;
+  align-items: center;
+  
+}
+.img_cont{
+  display: flex;
+  width: 100%;
+  background-image: url(/img/sunset.jpg) ;
+}
